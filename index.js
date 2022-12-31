@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
     "https://id.twitch.tv/oauth2/authorize?" +
       qs.stringify({
         response_type: response_type,
-        client_id: "jevgsyx72a84t0hcfqfpcp54quaf1c",
+        client_id: "<your clientID>",
         scope: scopes,
         redirect_uri: "http://localhost:3000/callback",
       })
